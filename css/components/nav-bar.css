@@ -1,4 +1,17 @@
-.nav{
+.nav-bar{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+    background-color: #F9F9FA;
+    padding:20px 50px;
+    border-top: 1px solid rgba(134, 134, 134, 0.3);
+}
+.nav-bar__list{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.nav-bar__link{
+    color:#2F363E
 }
