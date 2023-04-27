@@ -14,20 +14,29 @@
 
 .nav-bar__link{
     color:#2F363E;
-    position:relative;
+    position: relative;
 }
 
 .nav-bar__notification{
-    background-color: red;
+    background-color: tomato;
+    width:26px;
+    height:26px;
+    border-radius: 13px;
     display:flex;
-    width:24px;
-    height:24px;
-    border-radius: 12px;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 18px;
+    bottom:16px;
     color:white;
     font-weight: 600;
+}
+
+.nav-bar__dot{
+    background-color: tomato;
+    width:4px;
+    height:4px;
+    border-radius:2px;
     position:absolute;
-    left:18px;
-    bottom:15px;
+    left:30px;
 }
