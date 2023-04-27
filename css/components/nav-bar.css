@@ -5,7 +5,7 @@
     box-sizing: border-box;
     background-color: #F9F9FA;
     padding:20px 50px;
-    border-top: 1px solid rgba(134, 134, 134, 0.3);
+    border-top: 2px solid rgba(171, 168, 168, 0.3);
 }
 .nav-bar__list{
     display:flex;
@@ -13,5 +13,21 @@
 }
 
 .nav-bar__link{
-    color:#2F363E
+    color:#2F363E;
+    position:relative;
+}
+
+.nav-bar__notification{
+    background-color: red;
+    display:flex;
+    width:24px;
+    height:24px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    position:absolute;
+    left:18px;
+    bottom:15px;
 }
