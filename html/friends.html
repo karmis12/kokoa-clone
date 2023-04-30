@@ -64,8 +64,11 @@
                     </div>
                 </div>
                 <div class="user-component__column">
-                    <span>2</span>
-                    <i class="fa-solid fa-angle-right fa-xs"></i>
+                    <div> <!--여기에 div로 또 감싼 이유는 css에서 user-component-column:last child를 
+                    flex-direction:column으로 바꿨기 떄문에 그걸 피하기 위해서 div로 감싼거임 flex는 바로 부모여야지 통하므로-->
+                        <span>2</span>
+                        <i class="fa-solid fa-angle-right fa-xs"></i>
+                    </div>
                 </div> <!--오른쪽 끝의 2> 표시 부분-->
 
             </div>
@@ -79,7 +82,7 @@
                     <i class="fa-solid fa-user fa-2x"></i></a></li>
             <li class="nav-bar__btn">
                 <a class="nav-bar__link" href="chats.html">
-                    <span class="nav-bar__notification">1</span>
+                    <span class="nav-bar__notification badge">1</span>
                     <i class="fa-sharp fa-regular fa-comment fa-2x"></i></a></li>
             <li class="nav-bar__btn">
                 <a class="nav-bar__link" href="find.html">
