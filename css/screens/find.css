@@ -29,9 +29,67 @@
 }
 
 .recommended-friends__message{
-    margin: 110px 0px;
+    margin: 70px 0px;
     font-size: 20px;
     color:rgba(150, 148, 148, 1);
     display:flex;
     justify-content: center;
+}
+
+.open-chat__header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-chat__header__title{
+    opacity:0.8;
+}
+
+.open-chat__header a{
+    opacity:0.5;
+}
+
+.open-post{
+    display:flex;
+}
+
+.open-post__title{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.open-post__hashtags{
+    font-size: 15px;
+    opacity:0.6;
+    text-transform: uppercase;
+}
+
+.open-post__members{
+    display:flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.open-post__members img{
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+}
+
+.open-post__members__count{
+    opacity:0.6;
+    margin-left:5px;
+}
+
+.divider{
+    height:13px;
+    width:2px;
+    background-color:#D2D2D2;
+    margin:0px 5px;
+}
+
+.open-post__members__status{
+    color:#FF78CB
 }
