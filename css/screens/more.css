@@ -1,0 +1,27 @@
+.more-screen .icons-row{
+    margin-top: 35px;
+}
+
+
+.user-component__more__subtitle{
+    margin-top: 10px;
+}
+
+.more-screen .user-component__column i{
+    color:black;
+}
+
+.more-suggestions{
+    margin-top: 50px;
+    padding-top: 40px;
+    border-top: var(--gray-border);
+}
+
+.more-suggestions__title{
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.more-suggestions__icons{
+    display:flex;
+}
