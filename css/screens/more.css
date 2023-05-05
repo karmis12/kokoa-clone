@@ -2,9 +2,25 @@
     margin-top: 35px;
 }
 
+.user-component__more_fu{
+    margin-top: 5px;
+    margin-left: 6px;
+    width:15px;
+    height:15px;
+    border:2px solid red;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 600;
+    color:red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.user-component__more__subtitle{
-    margin-top: 10px;
+.user-component__more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .more-screen .user-component__column i{
@@ -43,4 +59,12 @@
     font-size: 32px;
     color:white;
     margin-bottom: 10px;
+}
+.more-suggestions__icon-text{
+    color:rgba(0,0,0,0.7);
+}
+
+.more-screen .notice__dot{
+    left: 80px;
+    top: 5px;
 }
