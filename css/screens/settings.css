@@ -1,12 +1,41 @@
 .settings-setting{
-    padding:20px 0px;
+    padding:19px 0px;
     border-bottom: 1px solid rgba(0,0,0,0.05);
-    font-size: 18px;
+    font-size: 19px;
+    font-weight: 600;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.settings-setting__column{
     display:flex;
     align-items: center;
 }
 
 .settings-setting span{
     margin-left: 15px;
+}
 
+.settings-setting__column:last-child{
+    opacity:0.8
+}
+
+.settings-setting:nth-child(3){
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.settings-screen .badge{
+    background-color: tomato;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 5px;
 }
