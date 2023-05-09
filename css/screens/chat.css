@@ -14,14 +14,13 @@
     top:15px;
 }
 
-.main-chat{
+.time-stamp{
     padding-top: 80px;
     display:flex;
     flex-direction: column;
     align-items: center;
-
-
 }
+
 .chat__time-stamp{
     background-color: #92A4B2;
     padding:8px 15px;
@@ -34,3 +33,61 @@
     align-items: center;
 }
 
+.message-row{
+    display:flex;
+    margin-top: 20px;
+    width:100%;
+}
+
+.message-row img{
+    width:50px;
+    height:50px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.message-row__author{
+    margin-bottom: 5px;
+    display:block; 
+    /* message-row__author은 span이므로 margin을 줄수없다 따라서 display:block을 사용한것 */
+}
+.message__burble{
+    background-color: white;
+    padding:10px;
+    border-radius: 17px;
+    border-top-left-radius: 0px;
+    margin-right: 4px;
+    width:155px;
+}
+.message-info{
+    display:flex;
+    align-items: flex-end;
+}
+
+.message__time,
+.message__author{
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+.message-row--own .message__burble{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 17px;
+}
+.message-row--own{
+    justify-content: flex-end;
+}
+.message-row--own .message-info{
+    flex-direction: row-reverse;
+}
+.message-row--own .message__burble{
+    margin-left: 4px;
+    margin-right: 0px;
+    width: 200px;
+    background-color: var(--yellow);
+}
+
+.message-row--alice2 .message__burble{
+    width: 140px;
+}
