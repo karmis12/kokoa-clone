@@ -37,3 +37,18 @@
     margin-bottom: 25px;
     color:rgba(0,0,0,0.5)
 }
+
+.splash-screen{
+    background-color: var(--yellow);
+    position:absolute;  
+    /* position:absolute를 통해서 부모 relative를 지정하지 않고 사용해서 모든 요소 위에 위치하게 함
+     */
+    height:100vh;
+    width:100vw;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color:black;
+}
