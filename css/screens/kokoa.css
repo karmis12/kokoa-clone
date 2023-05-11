@@ -1,0 +1,39 @@
+#friends-display-link{
+    background-color: #FAFAFA;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px 0px;
+    font-weight: 600;
+    margin-bottom:10px;
+    margin-top: -10px;
+}
+
+#friends-display-link i{
+    color:#D5D5D5
+}
+
+#friends-display-link i:first-child{
+    margin-right: 5px;
+}
+
+#friends-display-link i:last-child{
+    margin-left: 5px;
+}
+
+.friends-screen{
+    padding: 0px var(--horizontal-space); /* 여기서 한번에 패딩값을 주기 때문에 다른 것들 패딩 값을 안 넣는거*/
+}
+
+.friends-screen__channel{
+    margin-top: 25px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding-top: 20px;
+}
+.friends-screen__channel-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color:rgba(0,0,0,0.5)
+}
