@@ -1,6 +1,6 @@
 #chat-screen{
     background-color: #ABC1D1;
-    height:11000vh;
+    height:500vh;
 }
 
 #chat-screen .alt-screen-header,
@@ -102,12 +102,14 @@
     padding:5px 25px;
     background-color: white;
     box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
 }
 .reply input{
     height:30px;
     width:100%;
     border-radius: 20px;
     border-color: var(--gray);
+    transition: all .5s ease-in-out;
 }
 .reply__column:first-child{
     width:10%;
@@ -147,4 +149,37 @@
 
 .reply input::placeholder{
     padding-left: 10px;
+}
+
+/* animations */
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+        transform: none;
+    }
+    1%{
+        opacity:0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity:1;
+        transform: none;
+    }
+}
+
+.main-chat{
+    animation:fadeIn 0.5s linear;
+}
+
+.reply:focus-within .reply__column:first-child{
+    opacity:0
+}
+
+.reply:focus-within input{
+    width:95vw;
+    transform:translateX(-9%) translateY(-80px);
+}
+
+.reply:focus-within{
+    transform: translateY(80px);
 }
