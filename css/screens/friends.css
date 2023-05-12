@@ -61,6 +61,9 @@
     }to{
         opacity:0;
         visibility:hidden;
+        /* 아예 splash screen이 사라지는게 아님
+        visibility: hidden;으로 하면 화면은 남아있지만 화면이 마우스 클릭의 영향을 안 받음
+         */
     }
 
 }
