@@ -4,7 +4,7 @@
     width:100%;
     box-sizing: border-box;
     background-color: #F9F9FA;
-    padding:20px 50px;
+    padding:10px 50px;
     border-top: 2px solid rgba(171, 168, 168, 0.3);
 }
 .nav-bar__list{
@@ -59,7 +59,7 @@
 }
 
 .nav-bar__btn{
-    transform: translateY(70px);
+    transform: translateY(60px);
     animation: appearBtn 0.6s ease-in-out forwards;
 }
 
